@@ -16,7 +16,7 @@ const NetflixNavbar = function () {
         <Navbar.Collapse id="navbarSupportedContent">
           <Nav className="me-auto mb-2 mb-lg-0">
             <Nav.Item>
-              <Nav.Link href="#" className="fw-bold">
+              <Nav.Link href="#" className="text-white fw-bold">
                 Home
               </Nav.Link>
             </Nav.Item>

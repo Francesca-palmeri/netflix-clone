@@ -17,19 +17,25 @@ const SectionHero = function () {
               >
                 Genres
               </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#">Comedy</Dropdown.Item>
-                <Dropdown.Item href="#">Drama</Dropdown.Item>
-                <Dropdown.Item href="#">Thriller</Dropdown.Item>
+              <Dropdown.Menu style={{ backgroundColor: "#221f1f" }}>
+                <Dropdown.Item className="text-white-50" href="#">
+                  Comedy
+                </Dropdown.Item>
+                <Dropdown.Item className="text-white-50" href="#">
+                  Drama
+                </Dropdown.Item>
+                <Dropdown.Item className="text-white-50" href="#">
+                  Thriller
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </ButtonGroup>
         </div>
         <div>
-          <Button variant="link" className="p-0">
+          <Button variant="link" className="px-2 text-white custom-button">
             <Grid className="icons" />
           </Button>
-          <Button variant="link" className="p-0">
+          <Button variant="link" className="px-2 text-white custom-button">
             <Grid3x3 className="icons" />
           </Button>
         </div>

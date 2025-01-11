@@ -46,15 +46,15 @@ const SectionHero = function () {
           </div>
         </div>
 
-        <h4 className="text-white">Trending Now</h4>
+        <h4 className="text-white">Trending Now - Harry Potter</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <HarryPotter />
         </Row>
-        <h4 className="text-white">Watch it Again</h4>
+        <h4 className="text-white">Watch it Again - Lord of the Ring</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <LordOfTheRing />
         </Row>
-        <h4 className="text-white">NewReleases</h4>
+        <h4 className="text-white">NewReleases - Shrek</h4>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <Shrek />
         </Row>

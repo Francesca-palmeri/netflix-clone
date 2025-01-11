@@ -2,7 +2,11 @@
   height: 100vh;
   margin: 0 auto;
   padding: 0;
+}
+
+.ContainerHero {
   background-color: #221f1f;
+  margin-bottom: 0;
 }
 
 #kids {

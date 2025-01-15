@@ -1,6 +1,6 @@
 import { Button, Dropdown, Container, ButtonGroup, Row } from "react-bootstrap"
 import { Grid, Grid3x3 } from "react-bootstrap-icons"
-import NetflixFooter from "./NetflixFooter"
+
 import HarryPotter from "./HarryPotter"
 import LordOfTheRing from "./LordOfTheRings"
 import Shrek from "./Shrek"
@@ -58,7 +58,6 @@ const SectionHero = function () {
         <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
           <Shrek />
         </Row>
-        <NetflixFooter />
       </Container>
     </>
   )

@@ -5,12 +5,21 @@ import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import NetflixNavbar from "./components/NetflixNavbar"
 import SectionHero from "./components/SectionHero"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import NetflixFooter from "./components/NetflixFooter"
 
 function App() {
   return (
     <>
-      <NetflixNavbar />
-      <SectionHero />
+      <BrowserRouter>
+        <NetflixNavbar />
+
+        <Routes>
+          <Route path="/" element={<SectionHero />}></Route>
+        </Routes>
+
+        <NetflixFooter />
+      </BrowserRouter>
     </>
   )
 }

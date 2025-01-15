@@ -7,6 +7,7 @@ import NetflixNavbar from "./components/NetflixNavbar"
 import SectionHero from "./components/SectionHero"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import NetflixFooter from "./components/NetflixFooter"
+import HarryPotter from "./components/HarryPotter"
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<SectionHero />}></Route>
+        </Routes>
+
+        <Routes>
+          <Route path="/tv-shows" element={<HarryPotter />}></Route>
         </Routes>
 
         <NetflixFooter />

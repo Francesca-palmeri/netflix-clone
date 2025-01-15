@@ -5,7 +5,7 @@ const NetflixNavbar = function () {
   return (
     <Navbar expand="lg" variant="dark" style={{ backgroundColor: "#221f1f" }}>
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img
             src="logo.png"
             alt="Logo"
@@ -16,12 +16,12 @@ const NetflixNavbar = function () {
         <Navbar.Collapse id="navbarSupportedContent">
           <Nav className="me-auto mb-2 mb-lg-0">
             <Nav.Item>
-              <Nav.Link href="#" className="text-white fw-bold">
+              <Nav.Link href="/" className="text-white fw-bold">
                 Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#" className="fw-bold">
+              <Nav.Link href="/tv-shows" className="fw-bold">
                 TV Shows
               </Nav.Link>
             </Nav.Item>
